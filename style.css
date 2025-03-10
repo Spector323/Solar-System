@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    background: radial-gradient(circle, #000814, #001d3d, #003566);
+    overflow: hidden;
+}
+
+.solar-system {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.sun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #ffcb4c, #ff7f32);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 80px 30px #ffcb4c;
+}
+
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.planet {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    background: #3498db;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 1px rgba(52, 152, 219, 0.7);
+}
+
+.orbit1 {
+    width: 120px;
+    height: 120px;
+    animation: orbit1 12s linear infinite;
+}
+
+.orbit2 {
+    width: 180px;
+    height: 180px;
+    animation: orbit2 20s linear infinite;
+}
+
+.orbit3 {
+    width: 250px;
+    height: 250px;
+    animation: orbit3 30s linear infinite;
+}
+
+.orbit4 {
+    width: 350px;
+    height: 350px;
+    animation: orbit4 40s linear infinite;
+}
+
+.orbit5 {
+    width: 450px;
+    height: 450px;
+    animation: orbit5 50s linear infinite;
+}
+
+.orbit6 {
+    width: 550px;
+    height: 550px;
+    animation: orbit6 60s linear infinite;
+}
+
+.orbit7 {
+    width: 650px;
+    height: 650px;
+    animation: orbit7 70s linear infinite;
+}
+
+.orbit8 {
+    width: 750px;
+    height: 750px;
+    animation: orbit8 80s linear infinite;
+}
+
+.planet1 {
+    background: #ff6b6b;
+    width: 10px;
+    height: 10px;
+}
+
+.planet2 {
+    background: #e74c3c;
+    width: 15px;
+    height: 15px;
+}
+
+.planet3 {
+    background: #3498db;
+    width: 20px;
+    height: 20px;
+}
+
+.moon {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 5px;
+    height: 5px;
+    background: #95a5a6;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px 1px rgba(149, 165, 166, 0.8);
+}
+.moon1 {
+    animation: moon 5s linear infinite;
+}
+
+.planet4 {
+    background: #f39c12;
+    width: 18px;
+    height: 18px;
+}
+
+.planet5 {
+    background: #ff9f00;
+    width: 40px;
+    height: 40px;
+}
+
+.planet6 {
+    background: #f1c40f;
+    width: 35px;
+    height: 35px;
+}
+
+.planet7 {
+    background: #8e44ad;
+    width: 30px;
+    height: 30px;
+}
+
+.planet8 {
+    background: #1f618d;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
